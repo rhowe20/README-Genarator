@@ -73,7 +73,7 @@ function init() {
 
     .then(answers => {
     const markdown = generateMarkdown(answers);
-    writeToFile('README.md', markdown);
+    writeToFile('README2.md', markdown);
 })  
 }
 
