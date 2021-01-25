@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 
-const generateMarkdown = require('./develop/utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -79,12 +79,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-
-
-
-// description, installation instructions, usage information, contribution guidelines, and test instructions
-// license - badge for license
-// GitHub username
-// email
-// table of contents w/ clickable links
