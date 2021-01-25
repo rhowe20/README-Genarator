@@ -1,15 +1,24 @@
 {
-  "name": "homework-node",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "save": "^2.4.0"
+  },
+  "name": "README-Genarator",
+  "description": "This README.md Generator creates a quality README file for the user. All they have to do is answer the questions prompted by the node file and the README file is created with clickable links to the different sections.",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhowe20/README-Genarator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^7.3.3"
-  }
+  "bugs": {
+    "url": "https://github.com/rhowe20/README-Genarator/issues"
+  },
+  "homepage": "https://github.com/rhowe20/README-Genarator#readme"
 }
